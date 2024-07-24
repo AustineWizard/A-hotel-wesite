@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reunion hotel Kimilili</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/f1f1cf32ee.js"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpeg" alt="">
+            <p>ROYAL HOTEL</p></a>
+            <DIV class="NAVLINKS" id="navLinks">
+                <i class="fa fa-times"onclick=hideMenu()></i>
+ 
+            <UL>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutpage.html">ABOUT</a></li>
+                <li><a href="ACCOMODATION.html">ACCOMODATION</a></li>
+                <li><a href="blog page.html">BLOG</a></li>
+                <li><a href="contactpage.html">CONTACTS</a></li>
+            </UL>
+           </DIV>
+           <i class="fa fa-bars"onclick=showMenu() ></i>
+           </nav>
+         <h1>ACCOMODATION</h1>
+    </section>
+    <hr>
+      <section>
+          <div class="row">
+            <div class="departments-col">
+                <img src="hotel 51.jpg" alt="">
+                <div class="layer">
+                    <h3>Nyati Chinese Design</h3>
+                </div>
+               
+            </div>
+    
+            <div>
+              <h1>Nyati Chinese Hotel</h1>
+              <p>
+                <ul>
+                <li>entrance hall</li>
+               <li> Guest toilet</li>
+                <li>Complimentary wireless Internet</li>
+                <li>Guest washroom</li>
+                <li>Flat-screen TV with satellite channels</li>
+               <li>Free daily newspaper</li>
+                <li>Bar</li>
+                <li>flip flop</li>
+                <li>Minibar</li>
+                <li>Quiet rooms with double-glazed windows available (must be booked in advance)</li>
+                </ul>
+              </p>
+            </div> 
+            <div>
+                 <a href=""class="hello-btn"><p>BOOK NOW</p></a>
+            </div>
+        
+          </div>
+        </section>
+
+<hr>
+        <section>
+            <div class="row">
+              <div>
+                <h1>Nyati Chinese Hotel</h1>
+                <p>
+                  <ul>
+                  <li>entrance hall</li>
+                  <li>Complimentary wireless Internet</li>
+                  <li>Guest washroom</li>
+                  <li>Flat-screen TV with satellite channels</li>
+                 <li>Free daily newspaper</li>
+                  <li>Bar</li>
+                  <li>Minibar</li>
+                  <li>Quiet rooms with double-glazed windows available (must be booked in advance)</li>
+                  </ul>
+                </p>
+                <a href=""class="hello-btn"><p>BOOK NOW</p></a>
+              </div>
+              <div class="departments-col">
+                  <img src="hotel52.jpg" alt="">
+                  <div class="layer">
+                      <h3>Nyati Chinese Design</h3>
+                  </div>
+                 
+              </div>
+              
+          
+            </div>
+          </section>
+          <hr>
+
+            <section>
+              <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="room3.jpg" alt="Image 1">
+                </div>
+                <div class="mySlides fade">
+                    <img src="room5.jpeg" alt="Image 2">
+                </div>
+                <div class="mySlides fade">
+                  <img src="room4.jpg" alt="Image 3">
+              </div>
+              <div class="mySlides fade">
+                <img src="room6.jpg" alt="Image 4">
+            </div>
+                
+        
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        
+            </section>   
+
+
+
+
+<!----footer---->
+
+<section class="footer">
+    <div class="row">
+      <div class="col">
+        <img src="logo.jpeg" alt="">
+        <p>Welcome to royal hotel Kimilili to have an enjoyable stay</p>
+      </div>
+      <div class="col">
+      <h3>Book and contact us On</h3>
+      <p>Mishomoroni,Mombasa</p>
+      <p>Po. Box 16 kimilili</p>
+      <p class="email-id">austinnangole796@gmail.com</p>
+      <h4>0797307128</h4>
+  </div>
+      <div class="col"><h3>links</h3>
+      <ul><li><a href="index.html">HOME</a></li>
+        <li><a href="ACCOMODATION.html">ACCOMODATION</a></li>
+        <li><a href="aboutpage.html">ABOUT</a></li>
+        <li><a href="blog page.html">BLOG</a></li>
+        <li><a href="contactpage.html">CONTACTS</a></li>
+      </ul>
+    </div>
+      <div class="col">
+        <h3>News</h3>
+        <form class="formation">
+          <i class="fa-regular fa-envelope"></i>
+          <input type="email" placeholder="Enter you email" required>
+          <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+        <div class="social-media">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Done by Austin Nangole . All Rights Reserved</p>
+  </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right ="0"
+}
+        function hideMenu(){
+            navLinks.style.right ="-200px"
+        }
+    // JavaScript for Image Slideshow
+let slideIndex = 0;
+showSlides();
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+
+    if (slideIndex >= slides.length) {
+        slideIndex = 0;
+    }
+
+    if (slideIndex < 0) {
+        slideIndex = slides.length - 1;
+    }
+
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    slides[slideIndex].style.display = "block";
+
+    setTimeout(() => {
+        slideIndex++;
+        showSlides();
+    }, 5000); 
+}
+
+    </script>
+</body>
+</html>
